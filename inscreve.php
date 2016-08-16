@@ -12,9 +12,9 @@
 <?php
 	// Error log por motivos de: Sou um programador PHP scrub.
 	// Comentar para a versão live.
-	ini_set('display_startup_errors', 1);
-	ini_set('display_errors', 1);
-	error_reporting(-1);
+	//ini_set('display_startup_errors', 1);
+	//ini_set('display_errors', 1);
+	//error_reporting(-1);
 
 	try {
 		$inifile = parse_ini_file("conf/database.ini");
